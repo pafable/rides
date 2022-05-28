@@ -1,19 +1,11 @@
-package com.phil.vehicle
+package com.phil.mobile
 
-class Car {
+class Vehicle {
     String make
     String model
     int topSpeed
     int year
     Date createdOn = new Date()
-
-    // Constructor
-    Car(String make, model, int topSpeed, year) {
-        this.make = make
-        this.model = model
-        this.topSpeed = topSpeed
-        this.year = year
-    }
 
     def fullName() {
         return "${year} ${make} ${model}"

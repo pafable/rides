@@ -1,5 +1,5 @@
-import com.phil.vehicle.Car
-import com.phil.vehicle.Plane
+import com.phil.mobile.Car
+import com.phil.mobile.Plane
 
 Car c1 = new Car("Chevrolet", "Corvette C8", 195, 2022)
 Plane p1 = new Plane("Grumman", "F-14 Tomcat", 761, 1974)
