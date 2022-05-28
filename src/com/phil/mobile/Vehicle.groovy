@@ -12,7 +12,11 @@ class Vehicle {
     }
 
     // Static method
-    def static zoom() {
+//    def static zoom() {
+//        return "Vroom!"
+//    }
+
+    def zoom() {
         return "Vroom!"
     }
 

@@ -7,4 +7,9 @@ class Plane extends Vehicle {
         this.topSpeed = topSpeed
         this.year = year
     }
+
+    @Override
+    def zoom() {
+        return "Vrooooom!!!!"
+    }
 }
