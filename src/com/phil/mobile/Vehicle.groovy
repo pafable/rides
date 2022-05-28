@@ -20,5 +20,10 @@ class Vehicle {
         return "Vroom!"
     }
 
-    def isFast = (topSpeed >= 100) ? true : false
+    def isFast() {
+        println "TOP SPEED: ${topSpeed} MPH"
+        if (this.topSpeed >= 100) {
+            return true
+        }
+    }
 }
