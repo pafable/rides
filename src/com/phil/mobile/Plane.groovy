@@ -1,7 +1,7 @@
 package com.phil.mobile
 
 @groovy.transform.ToString
-class Plane extends Vehicle {
+class Plane extends Vehicle implements FlyingAbility {
     Plane(String make, model, int topSpeed, year) {
         this.make = make
         this.model = model
