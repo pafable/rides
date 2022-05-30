@@ -1,7 +1,7 @@
 package com.phil.mobile
 
-//@groovy.transform.ToString
-class Car extends Vehicle {
+@groovy.transform.ToString
+class Car extends Vehicle implements drivingAbility {
     Car(String make, model, int topSpeed, year) {
         this.make = make
         this.model = model
